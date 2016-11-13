@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 //dooot
 var ofOldeUser = $('span[class="UserName lia-user-name"]:last-child');
-  parseInt($('div[class="counter"]').text().replace(" posts",""));
+var postCount = parseInt($('div[class="counter"]').text().replace(" posts",""));
   if (postCount >= 48) {
   console.log(ofOldeUser);
   } else {
