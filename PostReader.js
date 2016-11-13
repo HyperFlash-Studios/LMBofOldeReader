@@ -1,4 +1,7 @@
 $(document).ready(function() {
-var ofOlde = $('div[class="counter"]:contains:('48')');
-console.log(ofOlde);
+  var divCount =  $('div[class="counter"]:contains:('48')');
+  var ofOlde = [];
+  for (var i = 0; i < divCount.length; i++) {
+  ofOlde.push(divCount);
 }
+});
